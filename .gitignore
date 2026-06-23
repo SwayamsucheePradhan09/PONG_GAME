@@ -1,0 +1,10 @@
+# Compiled binary
+pong_game
+game
+
+# macOS artifacts
+.DS_Store
+*.o
+
+# Build artifacts
+*.out
