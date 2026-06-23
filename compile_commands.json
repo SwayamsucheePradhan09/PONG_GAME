@@ -1,0 +1,17 @@
+[
+  {
+    "directory": "/Users/swayamsucheepradhan/Downloads/Game2",
+    "command": "clang++ -std=c++17 -Wall -Wextra -I/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/include -F/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/Frameworks -F/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/extlibs -c pong.cpp",
+    "file": "pong.cpp"
+  },
+  {
+    "directory": "/Users/swayamsucheepradhan/Downloads/Game2",
+    "command": "clang++ -std=c++17 -Wall -Wextra -I/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/include -F/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/Frameworks -F/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/extlibs -c ball.cpp",
+    "file": "ball.cpp"
+  },
+  {
+    "directory": "/Users/swayamsucheepradhan/Downloads/Game2",
+    "command": "clang++ -std=c++17 -Wall -Wextra -I/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/include -F/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/Frameworks -F/Users/swayamsucheepradhan/Downloads/SFML/SFML-2.6.2/extlibs -c bat.cpp",
+    "file": "bat.cpp"
+  }
+]
