@@ -17,7 +17,7 @@ int main() {
     View vw(FloatRect(0, 0, 1980, 1020)); 
     window.setView(vw);
    // 2. Setup Game State Variables
-    bool paused = false;
+    bool paused = true;
     bool gameOver = false;
     bool acceptInput = true;
     int lives = 3;
@@ -29,7 +29,9 @@ int main() {
     Font ft;
   
     // IMPORTANT: Make sure the "KOMIKAP_.ttf" file is in your assets folder/working directory!
-    ft.loadFromFile("font/KOMIKAP_.ttf"); 
+    if (!ft.loadFromFile("font/KOMIKAP_.ttf")) {
+        return 1; // Exit if font fails to load
+    }
     
     scoreText.setFont(ft);
     scoreText.setFillColor(Color::White);

@@ -1,5 +1,7 @@
 #include "bat.h" // Include the bat blueprint
 
+using namespace sf;
+
 // Constructor sets the initial size, color, and position of the bat
 Bat::Bat() {
     batShape.setFillColor(Color::White); // Make it white
@@ -40,7 +42,5 @@ void Bat::moveRight(Time &dt) {
 }
 // Returns the bat's shape for drawing
 RectangleShape Bat::returnShape() {
-    return(batShape);
+    return batShape;
 }
-
-
